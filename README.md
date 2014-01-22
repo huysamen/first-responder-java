@@ -1,17 +1,14 @@
-First Responder
-===============
+### First Responder
 
 
-Description
------------
+#### Description
 
 The First Responder library is a small and simple library, written in pure Java without any external dependencies. It
 tries to solve one very specific requirement, the ability to execute multiple tasks in parallel, and respond only to
 the first response, discarding the rest.
 
 
-Usage
------
+#### Usage
 
 Using the library is very straight forward. You instantiate an instance of the `FirstResponderManager` class. This class
 allows you to submit a collection of tasks that implement the `Callable` interface. This collection will then be
